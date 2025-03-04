@@ -47,7 +47,7 @@ about:
   home: https://github.com/HMZ-03/DASPy
   summary: DASPy is an open-source project dedicated to provide a python package for DAS (Distributed Acoustic Sensing) data processing, which comprises classic seismic data processing techniques and Specialized algorithms for DAS applications.
   license: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
