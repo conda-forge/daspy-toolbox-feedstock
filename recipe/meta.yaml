@@ -14,7 +14,7 @@ build:
   entry_points:
     - daspy = daspy.main:main
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: {{ PYTHON }} -m pip install . -vv
   number: 0
 
 requirements:
