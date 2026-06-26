@@ -1,5 +1,5 @@
 {% set name = "DASPy-toolbox" %}
-{% set version = "1.2.5" %}
+{% set version = "1.2.6" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') | lower }}-{{ version }}.tar.gz
-  sha256: 8a4d2184eb4f4dff692e7e3662b25ab429bbecc7a7a1f46dd4b385c48836ceba
+  sha256: eed573e8e34a4002eede7db38681e5f1abc03baaaf2b99ccbb7796393ba7fbcb
 
 build:
   entry_points:
